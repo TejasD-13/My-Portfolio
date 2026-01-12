@@ -7,6 +7,7 @@ import ResumePage from './pages/ResumePage';
 import ProjectsPage from './pages/ProjectsPage';
 import AcademicsPage from './pages/AcademicsPage';
 import ContactPage from './pages/ContactPage';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/academics" element={<AcademicsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
+          <Analytics />
         </div>
       </MainLayout>
     </Router>
