@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --color-background: #121212;
+    --color-surface: #1e1e1f;
+    --color-primary: #FFDB70;
+    --color-border: #383838;
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #D6D6D6;
+
+    --font-display: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Hide scrollbar for mobile navbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin-glow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Text selection (global) */
+::selection {
+  background-color: #ffdb70; /* golden */
+  color: #121212; /* dark text */
+}
+
+::-moz-selection {
+  background-color: #ffdb70;
+  color: #121212;
+}
