@@ -291,7 +291,7 @@ const TechIcon = ({ name, icon: Icon, color }) => (
     transition-all
     group
     cursor-default
-    w-24
+    w-full max-w-[96px]
   ">
     <Icon
       size={30}

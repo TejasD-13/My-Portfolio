@@ -8,10 +8,12 @@ import ProjectsPage from './pages/ProjectsPage';
 import AcademicsPage from './pages/AcademicsPage';
 import ContactPage from './pages/ContactPage';
 import { Analytics } from "@vercel/analytics/react"
+import ScrollToSectionTop from './components/ScrollToSectionTop';
 
 const App = () => {
   return (
     <Router>
+      <ScrollToSectionTop />
       <MainLayout>
         
         <div className="mt-20">
