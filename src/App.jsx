@@ -7,6 +7,7 @@ import ResumePage from './pages/ResumePage';
 import ProjectsPage from './pages/ProjectsPage';
 import AcademicsPage from './pages/AcademicsPage';
 import ContactPage from './pages/ContactPage';
+import HobbyPage from './pages/HobbyPage';
 import { Analytics } from "@vercel/analytics/react"
 import ScrollToSectionTop from './components/ScrollToSectionTop';
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/resume" element={<ResumePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/academics" element={<AcademicsPage />} />
+            <Route path="/hobby" element={<HobbyPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Analytics />

@@ -18,14 +18,14 @@ const AcademicsPage = () => {
           date="2023 – 2027"
           title="B.Tech in Computer Engineering"
           place="Vishwakarma Institute of Information Technology, Pune"
-          desc="Current CGPA: 8.92 / 10."
+          desc="Current CGPA: 8.92 / 10"
         />
 
         <TimelineItem
           date="2023"
           title="MHT-CET (Common Entrance Test)"
           place="Maharashtra State Board"
-          desc="Secured: 98.85 percentile."
+          desc="Secured: 98.85 percentile"
         />
 
         <TimelineItem
