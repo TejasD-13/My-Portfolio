@@ -1,5 +1,6 @@
 import React from "react";
 import CertificateGallery from "../sections/CertificateGallery";
+import ExtraCurricular from "../sections/ExtraCurricular";
 
 const AcademicsPage = () => {
   return (
@@ -43,6 +44,9 @@ const AcademicsPage = () => {
         />
       </div>
 
+      {/* Extra circular */}
+      <ExtraCurricular />
+      
       <CertificateGallery />
     </div>
   );

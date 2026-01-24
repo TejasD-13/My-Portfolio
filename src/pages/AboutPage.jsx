@@ -98,50 +98,6 @@ const AboutPage = () => {
             where I can learn, contribute, and grow as a software engineer.
           </p>
         </div>
-
-        {/* Feature Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12 max-w-4xl">
-          {[
-            {
-              title: "Problem Solver",
-              desc: "Strong analytical mindset focused on breaking down complex problems into efficient solutions.",
-              emoji: "💡",
-            },
-            {
-              title: "Hands-on Experience",
-              desc: "Practical experience with full-stack applications and AI-driven systems.",
-              emoji: "🧠",
-            },
-            {
-              title: "Strong Foundation",
-              desc: "Solid grasp of computer engineering fundamentals and data structures.",
-              emoji: "🎓",
-            },
-            {
-              title: "Growth Mindset",
-              desc: "Continuously learning new technologies and improving development practices.",
-              emoji: "📈",
-            },
-          ].map((card) => (
-            <div
-              key={card.title}
-              className="
-                bg-[#1e1e1f] border border-[#383838]
-                rounded-xl p-6 transition-all
-                hover:border-[#ffdb70]/50
-                hover:shadow-[0_0_30px_rgba(255,219,112,0.15)]
-              "
-            >
-              <div className="text-[#ffdb70] text-xl mb-3">{card.emoji}</div>
-              <h4 className="text-white font-semibold mb-2">
-                {card.title}
-              </h4>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                {card.desc}
-              </p>
-            </div>
-          ))}
-        </div>
       </section>
 
       {/* ================= TECHNOLOGY STACK ================= */}

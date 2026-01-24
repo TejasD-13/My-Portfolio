@@ -15,13 +15,25 @@ const MainLayout = ({ children }) => {
           </div>
 
           {/* Main Content */}
-          <div className="flex-1 bg-surface rounded-[20px] border border-[#383838] relative h-full overflow-hidden">
-            <div 
-            data-scroll-container
-            className="h-full overflow-y-auto p-8">
-              {children}
-            </div>
-          </div>
+          <div className="
+  flex-1
+  bg-surface
+  rounded-[20px]
+  border
+  border-[#383838]
+  relative
+  h-full
+  overflow-y-auto
+  no-scrollbar
+">
+  <div
+    data-scroll-container
+    className="p-8 min-h-full"
+  >
+    {children}
+  </div>
+</div>
+
 
         </div>
       </div>
