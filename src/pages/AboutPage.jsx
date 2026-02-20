@@ -33,6 +33,7 @@ const AboutPage = () => {
     { name: "Python", Icon: Python },
 
     { name: "React", Icon: ReactIcon },
+    { name: "React - Native", Icon: ReactIcon },
     { name: "HTML", Icon: HTML },
     { name: "Tailwind CSS", Icon: Tailwind },
 

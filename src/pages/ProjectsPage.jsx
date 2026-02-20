@@ -8,6 +8,9 @@ import RAGPDF from "../assets/Projects/PDF-RAG.png";
 import WeatherApp from "../assets/Projects/WeatherApp.png";
 import MovieRecommender from "../assets/Projects/MovieRecommendation.png";
 import Netflix from "../assets/Projects/Netflix.png";
+import SpamMail from "../assets/Projects/spam-mail.png";
+import CropRecommendation from "../assets/Projects/Crop-recommendation.png";
+import ExpenseApp from "../assets/Projects/ExpenseApp.png"
 
 const ProjectsPage = () => {
   return (
@@ -207,6 +210,82 @@ const ProjectsPage = () => {
               "Fetched posters dynamically via TMDB API.",
             ]}
             github="https://github.com/TejasD-13/Movie-Recommender-System"
+          />
+
+
+          <PersonalProjectCard
+            title="Spam Mail Detector"
+            image={SpamMail}
+            description="An interactive machine learning web app that classifies emails as Spam or Ham using TF-IDF feature extraction and Logistic Regression, built with Python and Streamlit."
+            tech={[
+              "Python 3.11",
+              "Streamlit",
+              "pandas",
+              "scikit-learn",
+              "TfidfVectorizer",
+              "Logistic Regression",
+              "Train/Test Split",
+            ]}
+            points={[
+              "Built a binary email classifier using TF-IDF text vectorization and Logistic Regression with an 80/20 train-test split, reporting model accuracy at runtime.",
+              "Implemented text preprocessing including lowercasing and English stop-word removal for improved model performance.",
+              "Developed an interactive Streamlit UI where users can paste an email and receive real-time Spam/Ham predictions.",
+              "Demonstrated an end-to-end ML workflow: data ingestion, preprocessing, model training, evaluation, and live inference.",
+            ]}
+
+            github="https://github.com/TejasD-13/Spam-Mail-Prediction.git"
+          />
+
+          <PersonalProjectCard 
+              title="Crop Recommendation System"
+              image={CropRecommendation}
+              description="An interactive machine learning app that recommends the most suitable crop based on soil and climate conditions using a serialized scikit-learn model."
+              tech={[
+                "Python",
+                "Streamlit",
+                "scikit-learn",
+                "pandas",
+                "numpy",
+                "pickle",
+                "MinMaxScaler",
+                "StandardScaler"
+              ]}
+              points={[
+                "Developed an end-to-end ML system that recommends crops using Decision Tree / Random Forest models trained on agricultural data.",
+                "Implemented a two-step preprocessing pipeline (MinMax → Standard Scaling) with serialized scalers for consistent inference.",
+                "Built a responsive Streamlit UI with interactive numeric inputs, image assets, and user-friendly error handling.",
+                "Optimized for fast deployment by loading pickled model and scalers directly in a single-file Streamlit app."
+              ]}
+              github="https://github.com/TejasD-13/Crop-Recommendation-System.git"
+          />
+
+          <PersonalProjectCard 
+              title="Smart Expense Tracker & Bill Splitter"
+              image={ExpenseApp}
+              description="A full-stack mobile application for personal finance management and collaborative bill splitting, featuring secure authentication, real-time balance tracking, and visual spending analytics."
+              tech={[
+                "React Native (TypeScript)",
+                "React Navigation",
+                "Async Storage",
+                "React Native Reanimated",
+                "React Native Chart Kit",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "JWT",
+                "BcryptJS",
+                "Axios"
+              ]}
+              points={[
+                "Built a complex bill-splitting engine to manage multi-user expenses, real-time balance calculations, and accurate debt settlements between friends.",
+                "Implemented visual spending analytics with dynamic Pie & Line charts to track category-wise and time-based financial patterns.",
+                "Designed a secure JWT-based authentication system with protected routes and encrypted passwords using BcryptJS.",
+                "Engineered a friend & settlement management system to track 'who owes whom' with dedicated balance and settlement screens.",
+                "Developed a responsive, premium UI with smooth 60fps animations, date-based expense grouping, and month/year filters.",
+                "Integrated an insight engine to analyze spending behavior and generate structured financial summaries and recommendations."
+              ]}
+              github="https://github.com/TejasD-13/Expense-Tracker-ReactNative-App.git"
           />
         </div>
       </div>
