@@ -5,6 +5,10 @@ import Cert2 from "../assets/Certificates/ML.png";
 import Cert3 from "../assets/Certificates/NLP.png";
 import Cert4 from "../assets/Certificates/AWS.png";
 import Cert5 from "../assets/Certificates/Python.png";
+import Cert6 from "../assets/Certificates/DevClash.png";
+import Cert7 from "../assets/Certificates/Spectra.png";
+import Cert8 from "../assets/Certificates/InnoHack.jpg";
+import Cert9 from "../assets/Certificates/BrandVerse.png";
 
 const certificates = [
   { id: 1, img: Cert1, title: "CCNA" },
@@ -12,6 +16,10 @@ const certificates = [
   { id: 3, img: Cert3, title: "NLP" },
   { id: 4, img: Cert4, title: "AWS" },
   { id: 5, img: Cert5, title: "Python" },
+  { id: 6, img: Cert6, title: "DevClash" },
+  { id: 7, img: Cert7, title: "Spectra" },
+  { id: 8, img: Cert8, title: "InnoHack" },
+  { id: 9, img: Cert9, title: "BrandVerse" },
 ];
 
 
