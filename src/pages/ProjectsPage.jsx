@@ -11,6 +11,7 @@ import Netflix from "../assets/Projects/Netflix.png";
 import SpamMail from "../assets/Projects/spam-mail.png";
 import CropRecommendation from "../assets/Projects/Crop-recommendation.png";
 import ExpenseApp from "../assets/Projects/ExpenseApp.png"
+import QuoraDuplicate from "../assets/Projects/QuoraDuplicate.png"
 
 const ProjectsPage = () => {
   return (
@@ -286,6 +287,31 @@ const ProjectsPage = () => {
                 "Integrated an insight engine to analyze spending behavior and generate structured financial summaries and recommendations."
               ]}
               github="https://github.com/TejasD-13/Expense-Tracker-ReactNative-App.git"
+          />
+
+          <PersonalProjectCard
+            title="Quora Duplicate Question Pair Detector"
+            image={QuoraDuplicate}
+            description="An NLP-based machine learning system that detects semantically duplicate question pairs using advanced feature engineering and ensemble models."
+            tech={[
+              "Python",
+              "Scikit-Learn",
+              "XGBoost",
+              "Streamlit",
+              "NLTK",
+              "FuzzyWuzzy",
+              "Pandas",
+              "NumPy"
+            ]}
+            points={[
+              "Developed an end-to-end ML pipeline to identify semantically identical question pairs from large-scale datasets (400k+ rows).",
+              "Engineered 22+ custom NLP features including fuzzy string matching, token overlap ratios, and length-based similarity metrics.",
+              "Improved model accuracy from 73% baseline to ~80% by comparing Random Forest and XGBoost classifiers.",
+              "Built a robust preprocessing pipeline with HTML cleaning, contraction expansion, and custom normalization.",
+              "Deployed an interactive Streamlit web app for real-time duplicate detection with a clean UI."
+            ]}
+            github="https://github.com/TejasD-13/Quora-Duplicate-Question-Detection.git"
+            demo="https://tejasd-13-quora-duplicate-question-detection-app-x5hrti.streamlit.app/"
           />
         </div>
       </div>
