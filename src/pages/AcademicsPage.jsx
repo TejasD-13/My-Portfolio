@@ -19,7 +19,7 @@ const AcademicsPage = () => {
           date="2023 – 2027"
           title="B.Tech in Computer Engineering"
           place="Vishwakarma Institute of Information Technology, Pune"
-          desc="Current CGPA: 8.92 / 10"
+          desc="Current CGPA: 9.02 / 10"
         />
 
         <TimelineItem
@@ -46,7 +46,7 @@ const AcademicsPage = () => {
 
       {/* Extra circular */}
       <ExtraCurricular />
-      
+
       <CertificateGallery />
     </div>
   );

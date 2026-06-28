@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/Tejas cv 5.pdf";
+import Resume from "../assets/Tejas_Divekar_Resume_VIT.pdf";
 
 const ResumePage = () => {
   return (

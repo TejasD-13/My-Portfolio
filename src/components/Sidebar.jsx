@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { SiLeetcode } from "react-icons/si";
 import ProfileImage from "../assets/profile.jpg";
-import Resume from "../assets/Tejas cv 5.pdf";
+import Resume from "../assets/Tejas_Divekar_Resume_VIT.pdf";
 
 /* ROLES */
 const roles = [

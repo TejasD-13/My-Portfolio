@@ -58,6 +58,21 @@ const ProjectsPage = () => {
               "Developed dashboards for announcements, student directories, and messaging.",
             ]}
           />
+
+          <IndustryProjectCard
+            title="Email Automation System"
+            company="GR Scholastic LLP"
+            duration="Jan 2026– May 2026"
+            mode="Remote"
+            role="Data Engineering & Automation Intern"
+            points={[
+              "Built an email automation system to manage bulk outreach workflows across large-scale academic datasets.",
+              "Automated audience segmentation, email dispatch pipelines, and engagement tracking for global campaigns.",
+              "Implemented email authentication using SPF, DKIM, and DMARC to improve deliverability and security.",
+              "Designed structured data pipelines for curating and segmenting datasets to support scalable communication workflows.",
+            ]}
+          />
+
         </div>
       </div>
 
